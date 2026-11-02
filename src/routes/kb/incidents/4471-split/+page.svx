@@ -14,7 +14,7 @@ signature: 'Michael Weterings (mweterings), with Claude Opus 5.5'
   import RenderStamp from '#lib/kb/RenderStamp.svelte';
 
   // One GitHub issue per problem. Fill in as they are filed.
-  const issues = {};
+  const issues = { parser: 'https://github.com/mweterings/what-it-shows/issues/1', hint: 'https://github.com/mweterings/what-it-shows/issues/2', 'one-day': 'https://github.com/mweterings/what-it-shows/issues/3' };
 </script>
 
 [#4471](/kb/incidents/4471) says one issue, one fix queued. Read report by report, it is three
