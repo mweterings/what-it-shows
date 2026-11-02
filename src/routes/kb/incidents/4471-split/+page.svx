@@ -4,7 +4,7 @@ title: '#4471 split · three problems, not one'
 owner: support desk
 status: draft
 reviewed: 2026-11-02
-signature: SIGNATURE_HERE
+signature: 'Michael Weterings (mweterings), with Claude Opus 5.5'
 ---
 
 <script>
