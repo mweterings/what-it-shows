@@ -30,8 +30,9 @@ with no ticket.
 <ProblemTable ticket={4471} {issues} />
 
 Counts come from the export at render time: one row per report id (the export pages overlap),
-placed by tenant and form with `causes.ts`, and the desk's one-day list (`desk-notes.json`)
-taken out as its own problem.
+placed by tenant and form with `causes.ts` the way the desk counts them. The desk's one-day
+list (`desk-notes.json`) gets its own row; the desk files those reports under `parser` by tenant,
+so they stay counted there too.
 
 ## The three problems
 
